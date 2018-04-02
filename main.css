@@ -1,0 +1,81 @@
+body {
+  background: rgb(34, 136, 238);
+  font-family: "Roboto", helvetica, sans-serif;
+  margin: 0;
+  padding: 50px 0 0;
+  font-size: 18px;
+}
+
+body * {
+
+  box-sizing: border-box;
+}
+
+.logo {
+	height: 35px;
+	width: auto;
+	display: block;
+	margin: 0 auto 20px;
+}
+
+.main-form {
+	width: 400px;
+	padding: 40px;
+	margin: 0 auto;
+	border-radius: 3px;
+	background: rgb(255, 255, 255);
+}
+
+.main-form fieldset {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.main-form legend {
+	color: rgb(87, 87, 87);
+	margin: 0 auto 45px;
+	font-size: 30px;
+	width: 100%;
+	letter-spacing: 0;
+	line-height: 40px;
+	font-weight: 300;
+	text-align: center;
+}
+
+input, button {
+	display: block;
+	border-radius: 5px;
+	width: 320px;
+	border: 2px solid rgb(238, 238, 238);
+	height: auto;
+	text-align: left;
+	margin: 10px auto 15px;
+	padding: 15px;
+	font-size: 18px;
+}
+
+button {
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	border: 0;
+	font-weight: 500;
+	margin-bottom: 0;
+	height: auto;
+	text-align: center;
+	background: rgb(21, 205, 114);
+}
+
+/* footer */
+footer {
+	font-weight: 600;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	margin: 30px auto;
+	border: 0;
+	padding: 0;
+}
+
+.footer a {
+	color: rgb(255, 255, 255);
+}
